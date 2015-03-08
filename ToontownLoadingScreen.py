@@ -64,4 +64,4 @@ class ToontownLoadingScreen(DirectObject):
     def tick(self):
         self.__count = self.__count + 1
         self.waitBar.update(self.__count)
-app = ToontownLoadingScreen()
+
