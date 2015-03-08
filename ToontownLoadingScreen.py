@@ -1,7 +1,7 @@
 from direct.gui.DirectGui import *
 from pandac.PandaModules import *
-from toontown.toonbase import ToontownGlobals
-from toontown.toonbase import TTLocalizer
+import ToontownGlobals
+import TTLocalizer
 import random
 
 class ToontownLoadingScreen():
