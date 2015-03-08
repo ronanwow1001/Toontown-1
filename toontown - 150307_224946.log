@@ -1,0 +1,18 @@
+Data file exists
+Would you like to create new toon data? :MyCategory(warning): Put some informational text here.
+C:\Users\Samuel\Documents\GitHub\Panda3D\TTC.py:31: SyntaxWarning: import * only allowed at module level
+  def loadingScreen(self):
+Start 2 TTC
+:ShowBase: Got window event: origin=(250, 200) size=(1280, 720) title="Toontown" !undecorated !fixed_size !fullscreen foreground !minimized open !cursor_hidden icon:phase_3/models/gui/toontown.ico cursor:phase_3/models/gui/toonmono.cur absolute 
+:ShowBase: Got window event: origin=(250, 200) size=(1280, 720) title="Toontown" !undecorated !fixed_size !fullscreen !foreground !minimized open !cursor_hidden icon:phase_3/models/gui/toontown.ico cursor:phase_3/models/gui/toonmono.cur absolute 
+:ShowBase: Got window event: origin=(250, 200) size=(1280, 720) title="Toontown" !undecorated !fixed_size !fullscreen foreground !minimized open !cursor_hidden icon:phase_3/models/gui/toontown.ico cursor:phase_3/models/gui/toonmono.cur absolute 
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+:ShowBase: Got window event: origin=(250, 200) size=(1280, 720) title="Toontown" !undecorated !fixed_size !fullscreen !foreground !minimized open !cursor_hidden icon:phase_3/models/gui/toontown.ico cursor:phase_3/models/gui/toonmono.cur absolute 
+:ShowBase: Got window event: origin=(250, 200) size=(1280, 720) title="Toontown" !undecorated !fixed_size !fullscreen foreground !minimized open !cursor_hidden icon:phase_3/models/gui/toontown.ico cursor:phase_3/models/gui/toonmono.cur absolute 
+:ShowBase: Got window event: origin=(250, 200) size=(1280, 720) title="Toontown" !undecorated !fixed_size !fullscreen !foreground !minimized open !cursor_hidden icon:phase_3/models/gui/toontown.ico cursor:phase_3/models/gui/toonmono.cur absolute 
+:ShowBase: Got window event: origin=(250, 200) size=(1280, 720) title="Toontown" !undecorated !fixed_size !fullscreen foreground !minimized open !cursor_hidden icon:phase_3/models/gui/toontown.ico cursor:phase_3/models/gui/toonmono.cur absolute 
+:ShowBase: Got window event: origin=(250, 200) size=(1280, 720) title="Toontown" !undecorated !fixed_size !fullscreen !foreground !minimized !open !cursor_hidden icon:phase_3/models/gui/toontown.ico cursor:phase_3/models/gui/toonmono.cur absolute 
+:ShowBase: User closed main window.
+:ShowBase: Exiting ShowBase.
+:TaskManager: TaskManager.destroy()

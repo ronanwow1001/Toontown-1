@@ -1,0 +1,8 @@
+Data file exists
+Would you like to create new toon data? :MyCategory(warning): Put some informational text here.
+Start 3 TTC
+:ShowBase(warning): duplicate guiId: ToontownLoadingScreenTip ((empty) stomping progress-background.egg/scroll/DirectLabel-ToontownLoadingScreenTip)
+:ShowBase(warning): duplicate guiId: ToontownLoadingScreenTitle ((empty) stomping progress-background.egg/DirectLabel-ToontownLoadingScreenTitle)
+:ShowBase(warning): duplicate guiId: ToontownLoadingScreenWaitBar ((empty) stomping progress-background.egg/DirectWaitBar-ToontownLoadingScreenWaitBar)
+:ShowBase: Got window event: origin=(250, 200) size=(1280, 720) title="Toontown" !undecorated !fixed_size !fullscreen foreground !minimized open !cursor_hidden icon:phase_3/models/gui/toontown.ico cursor:phase_3/models/gui/toonmono.cur absolute 
+:ShowBase: Got window event: origin=(250, 200) size=(1280, 720) title="Toontown" !undecorated !fixed_size !fullscreen !foreground !minimized open !cursor_hidden icon:phase_3/models/gui/toontown.ico cursor:phase_3/models/gui/toonmono.cur absolute 

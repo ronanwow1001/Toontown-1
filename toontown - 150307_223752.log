@@ -1,0 +1,12 @@
+Data file exists
+Would you like to create new toon data? :MyCategory(warning): Put some informational text here.
+Start 1 TTC
+Traceback (most recent call last):
+  File "Start.py", line 127, in <module>
+    from AvatarGui import *
+  File "C:\Users\Samuel\Documents\GitHub\Panda3D\AvatarGui.py", line 8, in <module>
+    from toon_color import *
+  File "C:\Users\Samuel\Documents\GitHub\Panda3D\toon_color.py", line 28, in <module>
+    deathColor = Vec4(0.58039216, 0.80392157, 0.34117647, 1.0)
+NameError: name 'Vec4' is not defined
+:TaskManager: TaskManager.destroy()

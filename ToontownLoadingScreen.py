@@ -8,7 +8,7 @@ import random
 import sys
 
 class ToontownLoadingScreen(DirectObject):
-    __module__ = __name__
+    #__module__ = __name__
 
     def __init__(self):
         self.__expectedCount = 0

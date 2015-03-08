@@ -8,6 +8,7 @@ import sys
 import random
 from LocalAvatar import localAvatar 
 
+
 font = loader.loadFont('phase_3/models/fonts/ImpressBT.ttf')
 
 class TTC(DirectObject):
@@ -25,6 +26,11 @@ class TTC(DirectObject):
 		self.accept("escape", self.askExit)
 		self.accept("s", self.muteAudio)
 		self.accept("e", self.enableAudio)
+		self.accept("l", self.loadingScreen)
+		
+	def loadingScreen(self):
+		from ToontownLoadingScreen import app
+		app.begin()
 	def startWorld(self):
 		self.terrain = loader.loadModel('phase_15/hood/toontown_central.bam')
 		self.terrain.reparentTo(render)

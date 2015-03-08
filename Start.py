@@ -7,8 +7,13 @@ import os.path
 import sys
 import random
 import __builtin__
-from ToontownLoadingScreen import *
-#ToontownLoadingScreen.ToontownLoadingScreen()
+import direct.directbase.DirectStart
+from panda3d.core import Vec4
+from direct.gui.DirectGui import *
+from direct.showbase.DirectObject import *
+from pandac.PandaModules import *
+from direct.gui.OnscreenText import *
+
 
 logfolder = r'Log Folder'
 if not os.path.exists(logfolder): os.makedirs(logfolder)
@@ -120,7 +125,6 @@ notify.warning("Put some informational text here.")
 from LocalAvatar import *
 from AvatarGui import *
 from TTC import *
-
 
 
 run()

@@ -1,0 +1,45 @@
+Data file exists
+Would you like to create new toon data? :MyCategory(warning): Put some informational text here.
+TTLocalizer: Running in language: english
+from toontown.toonbase.TTLocalizerEnglish import *
+Start 1 TTC
+:ShowBase: Got window event: origin=(250, 200) size=(1280, 720) title="Toontown" !undecorated !fixed_size !fullscreen foreground !minimized open !cursor_hidden icon:phase_3/models/gui/toontown.ico cursor:phase_3/models/gui/toonmono.cur absolute 
+:ShowBase: Got window event: origin=(250, 200) size=(1280, 720) title="Toontown" !undecorated !fixed_size !fullscreen !foreground !minimized open !cursor_hidden icon:phase_3/models/gui/toontown.ico cursor:phase_3/models/gui/toonmono.cur absolute 
+:ShowBase: Got window event: origin=(250, 200) size=(1280, 720) title="Toontown" !undecorated !fixed_size !fullscreen foreground !minimized open !cursor_hidden icon:phase_3/models/gui/toontown.ico cursor:phase_3/models/gui/toonmono.cur absolute 
+Traceback (most recent call last):
+  File "C:\Panda3D-1.8.1\direct\showbase\EventManager.py", line 61, in eventLoopTask
+    self.doEvents()
+  File "C:\Panda3D-1.8.1\direct\showbase\EventManager.py", line 55, in doEvents
+    processFunc(self.eventQueue.dequeueEvent())
+  File "C:\Panda3D-1.8.1\direct\showbase\EventManager.py", line 124, in processEvent
+    messenger.send(eventName)
+  File "C:\Panda3D-1.8.1\direct\showbase\Messenger.py", line 397, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "C:\Panda3D-1.8.1\direct\showbase\Messenger.py", line 482, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "C:\Users\Samuel\Documents\GitHub\Panda3D\TTC.py", line 32, in loadingScreen
+    ToontownLoadingScreen.ToontownLoadingScreen()
+AttributeError: class ToontownLoadingScreen has no attribute 'ToontownLoadingScreen'
+Traceback (most recent call last):
+  File "Start.py", line 132, in <module>
+    run()
+  File "C:\Panda3D-1.8.1\direct\showbase\ShowBase.py", line 2921, in run
+    self.taskMgr.run()
+  File "C:\Panda3D-1.8.1\direct\task\Task.py", line 502, in run
+    self.step()
+  File "C:\Panda3D-1.8.1\direct\task\Task.py", line 460, in step
+    self.mgr.poll()
+  File "C:\Panda3D-1.8.1\direct\showbase\EventManager.py", line 61, in eventLoopTask
+    self.doEvents()
+  File "C:\Panda3D-1.8.1\direct\showbase\EventManager.py", line 55, in doEvents
+    processFunc(self.eventQueue.dequeueEvent())
+  File "C:\Panda3D-1.8.1\direct\showbase\EventManager.py", line 124, in processEvent
+    messenger.send(eventName)
+  File "C:\Panda3D-1.8.1\direct\showbase\Messenger.py", line 397, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "C:\Panda3D-1.8.1\direct\showbase\Messenger.py", line 482, in __dispatch
+    method (*(extraArgs + sentArgs))
+  File "C:\Users\Samuel\Documents\GitHub\Panda3D\TTC.py", line 32, in loadingScreen
+    ToontownLoadingScreen.ToontownLoadingScreen()
+AttributeError: class ToontownLoadingScreen has no attribute 'ToontownLoadingScreen'
+:TaskManager: TaskManager.destroy()
