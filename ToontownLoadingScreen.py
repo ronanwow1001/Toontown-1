@@ -1,5 +1,7 @@
 from direct.gui.DirectGui import *
 from pandac.PandaModules import *
+from panda3d.core import *
+from direct.showbase.DirectObject import *
 import ToontownGlobals
 import TTLocalizer
 import random
@@ -10,8 +12,8 @@ class ToontownLoadingScreen():
     def __init__(self):
         self.__expectedCount = 0
         self.__count = 0
-        self.gui = loader.loadModel('phase_3/models/gui/progress-background')
-        self.banner = loader.loadModel('phase_3/models/gui/toon_council').find('**/scroll')
+        self.gui = loader.loadModel('phase_3/models/gui/progress-background.bam')
+        self.banner = loader.loadModel('phase_3/models/gui/toon_council.bam').find('**/scroll')
         self.banner.reparentTo(self.gui)
         self.banner.setScale(0.4, 0.4, 0.4)
         self.tip = DirectLabel(guiId='ToontownLoadingScreenTip', parent=self.banner, relief=None, text='', text_scale=TTLocalizer.TLStip, textMayChange=1, pos=(-1.2, 0.0, 0.1), text_fg=(0.4, 0.3, 0.2, 1), text_wordwrap=13, text_align=TextNode.ALeft)
