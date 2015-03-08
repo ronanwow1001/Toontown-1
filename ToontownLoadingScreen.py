@@ -5,9 +5,10 @@ from direct.showbase.DirectObject import *
 import ToontownGlobals
 import TTLocalizer
 import random
+import sys
 
-class ToontownLoadingScreen():
-    #__module__ = __name__
+class ToontownLoadingScreen(DirectObject):
+    __module__ = __name__
 
     def __init__(self):
         self.__expectedCount = 0
