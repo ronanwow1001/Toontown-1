@@ -1,4 +1,4 @@
-from toontown.toonbase.TTLocalizerEnglishProperty import *
+from TTLocalizerEnglishProperty import *
 #from toontown.catalog import CatalogAccessoryItemGlobals
 #from otp.otpbase import OTPLocalizer as OL
 #OL.SpeedChatStaticText = OL.SpeedChatStaticTextToontown.copy()
