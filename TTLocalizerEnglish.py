@@ -9623,4 +9623,4 @@ BoardingMore = 'more'
 BoardingGoShow = 'Going to\n%s in '
 BoardingGoPreShow = 'Confirming...'
 BossbotBossName = 'C.E.O.'
-BossbotRT
+#BossbotRT
