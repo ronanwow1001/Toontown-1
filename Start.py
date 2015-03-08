@@ -7,6 +7,8 @@ import os.path
 import sys
 import random
 import __builtin__
+import ToontownLoadingScreen
+ToontownLoadingScreen.ToontownLoadingScreen()
 
 logfolder = r'Log Folder'
 if not os.path.exists(logfolder): os.makedirs(logfolder)
