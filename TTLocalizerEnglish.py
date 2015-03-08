@@ -8805,7 +8805,7 @@ KartRace_RaceNames = ['Practice', 'Toon Battle', 'Grand Prix']
 #from toontown.racing import RaceGlobals
 KartRace_Go = 'Go!'
 KartRace_Reverse = ' Rev'
-KartRace_TrackNames = {RaceGlobals.RT_Speedway_1: 'Screwball Stadium',
+#KartRace_TrackNames = {RaceGlobals.RT_Speedway_1: 'Screwball Stadium',
  #RaceGlobals.RT_Speedway_1_rev: 'Screwball Stadium' + KartRace_Reverse,
  #RaceGlobals.RT_Rural_1: 'Rustic Raceway',
  #RaceGlobals.RT_Rural_1_rev: 'Rustic Raceway' + KartRace_Reverse,
