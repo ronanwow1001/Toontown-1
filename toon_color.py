@@ -1,4 +1,5 @@
 from panda3d.core import Vec4
+from panda3d.core import VBase4
 white = (1, 1, 1, 1)
 peach = (0.96875, 0.691406, 0.699219, 1.0)
 brightred = (0.933594, 0.265625, 0.28125, 1.0)
