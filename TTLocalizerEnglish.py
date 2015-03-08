@@ -6033,19 +6033,19 @@ AccessoryNamePrefix = {0: 'hat unisex ',
  11: 'shoes girl '}
 AwardManagerAccessoryNames = {}
 AccessoryTypeNames = {}
-for accessoryId in CatalogAccessoryItemGlobals.AccessoryTypes.keys():
-    accessoryInfo = CatalogAccessoryItemGlobals.AccessoryTypes[accessoryId]
-    if accessoryInfo[0] % 4 == 0:
-        accessoryStyleDescription = HatStylesDescriptions
-    elif accessoryInfo[0] % 4 == 1:
-        accessoryStyleDescription = GlassesStylesDescriptions
-    elif accessoryInfo[0] % 4 == 2:
-        accessoryStyleDescription = BackpackStylesDescriptions
-    else:
-        accessoryStyleDescription = ShoesStylesDescriptions
-    if accessoryInfo[3]:
-        AwardManagerAccessoryNames[accessoryId] = AccessoryNamePrefix[accessoryInfo[0]] + accessoryStyleDescription[accessoryInfo[1]]
-    AccessoryTypeNames[accessoryId] = accessoryStyleDescription[accessoryInfo[1]]
+#for accessoryId in CatalogAccessoryItemGlobals.AccessoryTypes.keys():
+    #accessoryInfo = CatalogAccessoryItemGlobals.AccessoryTypes[accessoryId]
+    #if accessoryInfo[0] % 4 == 0:
+        #accessoryStyleDescription = HatStylesDescriptions
+    #elif accessoryInfo[0] % 4 == 1:
+        #accessoryStyleDescription = GlassesStylesDescriptions
+    #elif accessoryInfo[0] % 4 == 2:
+        #accessoryStyleDescription = BackpackStylesDescriptions
+    #else:
+        #accessoryStyleDescription = ShoesStylesDescriptions
+    #if accessoryInfo[3]:
+        #AwardManagerAccessoryNames[accessoryId] = AccessoryNamePrefix[accessoryInfo[0]] + accessoryStyleDescription[accessoryInfo[1]]
+    #AccessoryTypeNames[accessoryId] = accessoryStyleDescription[accessoryInfo[1]]
 
 ShirtStylesDescriptions = {'bss1': 'solid',
  'bss2': 'single stripe',
