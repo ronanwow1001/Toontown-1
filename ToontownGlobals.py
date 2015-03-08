@@ -1,5 +1,5 @@
 import TTLocalizer
-from otp.otpbase.OTPGlobals import *
+#from otp.otpbase.OTPGlobals import *
 from direct.showbase.PythonUtil import Enum, invertDict
 from pandac.PandaModules import BitMask32, Vec4
 MapHotkeyOn = 'alt'
@@ -109,8 +109,8 @@ MaxCogSuitLevel = 12 - 1
 
 setInterfaceFont(TTLocalizer.InterfaceFont)
 setSignFont(TTLocalizer.SignFont)
-from toontown.toontowngui import TTDialog
-setDialogClasses(TTDialog.TTDialog, TTDialog.TTGlobalDialog)
+#from toontown.toontowngui import TTDialog
+#setDialogClasses(TTDialog.TTDialog, TTDialog.TTGlobalDialog)
 ToonFont = None
 BuildingNametagFont = None
 MinnieFont = None
