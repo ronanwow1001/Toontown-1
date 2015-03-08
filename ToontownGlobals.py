@@ -107,8 +107,8 @@ GravityValue = 32.174
 MaxCogSuitLevel = 12 - 1
 
 
-setInterfaceFont(TTLocalizer.InterfaceFont)
-setSignFont(TTLocalizer.SignFont)
+#setInterfaceFont(TTLocalizer.InterfaceFont)
+#setSignFont(TTLocalizer.SignFont)
 #from toontown.toontowngui import TTDialog
 #setDialogClasses(TTDialog.TTDialog, TTDialog.TTGlobalDialog)
 ToonFont = None
